@@ -1,0 +1,26 @@
+Package: TransLinguaAI4R
+Type: Package
+Title: AI-Based Language Translation and Conversion for R
+Version: 0.1
+Date: 2024-05-10
+Authors@R: c(
+    person (given = "Satoshi", family = "Kume",
+    role = c("aut", "cre"), 
+    email = "satoshi.kume.1984@gmail.com",
+    comment = c(ORCID = "0000-0001-7481-2843"))
+    )
+Maintainer: Satoshi Kume <satoshi.kume.1984@gmail.com>
+Description: The Large Language Model (LLM) represents a groundbreaking advancement 
+    in various natural language processing, and also allows us to extend the world of R. 
+    Focusing on language translation and conversion in various language, 
+    TransLinguaAI4R offers functionalities such as text translation, summarization, 
+    text extension, and language element decomposition. 
+    This package is part of the chatAI4R family.
+Depends: R (>= 4.4.0)
+Imports: chatAI4R
+Suggests: testthat, knitr
+License: Artistic-2.0
+URL: https://kumes.github.io/TransLinguaAI4R/, https://github.com/kumeS/TransLinguaAI4R
+BugReports: https://github.com/kumeS/TransLinguaAI4R/issues
+RoxygenNote: 7.3.1
+Encoding: UTF-8
